@@ -5,16 +5,60 @@
 
   .login-container {
     width: 50%;
-    max-width: 800px;
-    height: 600px;
+    max-width: 700px;
+    height: 500px;
     background-color: white;
     border-radius: 50px;
     margin: auto;
     padding: 30px;
 
     .login-title {
-      display: flex;
-      justify-content: center;
+      font-family: "Inria Serif", serif;
+      font-weight: 700;
+      font-style: italic;
+      font-size: 32px;
+      text-align: center;
+      margin: 0px;
+      margin-bottom: 80px;
+      margin-top: 80px;
+    }
+
+    .login-form {
+      text-align: center;
+
+      .login-form-control {
+        margin-bottom: 15px;
+
+        &--submit {
+          margin-top: 50px;
+        }
+
+        .login-input {
+          font-family: "Inter", sans-serif;
+          padding: 10px 20px;
+          border-radius: 8px;
+          width: 400px;
+          border: 1px solid #9a9a9a;
+
+          &::placeholder {
+            color: #9a9a9a;
+          }
+        }
+
+        .btn-submit {
+          font-family: "Inter", sans-serif;
+          width: 120px;
+          height: 40px;
+          background-color: #bdcfba;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+        }
+      }
+
+      .login-message-error {
+        color: red;
+      }
     }
   }
 }

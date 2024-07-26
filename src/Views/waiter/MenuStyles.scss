@@ -1,0 +1,13 @@
+.menu-view {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+
+  .menu-view-left {
+    width: 65%;
+  }
+
+  .menu-view-right {
+    width: 35%;
+  }
+}

@@ -1,0 +1,21 @@
+.quantity-btn {
+  border-radius: 50%;
+  border: none;
+  background-color: #d9d9d9;
+  color: #627254;
+  height: 15px;
+  width: 15px;
+  padding: 0px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover,
+  &:disabled {
+    background-color: #76885b;
+    color: #d9d9d9;
+  }
+}
+
+.quantity-counter {
+  margin: 0px 10px;
+}
